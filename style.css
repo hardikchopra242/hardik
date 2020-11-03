@@ -308,6 +308,13 @@ footer{
 }
 
 
+@media (max-width: 400px){
+
+   section{
+	grid-template-columns: repeat(auto-fill , minmax(100px,0.7fr));
+    }
+}
+
 /*
 #one{
 	background-image: url("https://mixkit.imgix.net/art/preview/mixkit-gorgeous-sunset-over-hills-and-water-84-original-large.png?q=80&auto=format%2Ccompress&h=700&q=80&dpr=1");
