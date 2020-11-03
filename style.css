@@ -312,7 +312,15 @@ footer{
 
    section{
 	grid-template-columns: repeat(auto-fill , minmax(100px,0.7fr));
+     }
+
+  #end{
+	font-size: 0.5rem;
     }
+  #thisRepo{
+	font-style: monospace;
+   }
+
 }
 
 /*
