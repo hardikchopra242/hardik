@@ -1,4 +1,4 @@
-/*Style file for the CSS of the Grid small project*/
+/*Style file for the CSS */
 *{
 	padding: 0px;
 	margin: 0px;
@@ -22,7 +22,6 @@ body{
 }
 
 header{
-	/*border:2px solid yellow;*/
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
@@ -43,7 +42,6 @@ header nav ul a:active{
 
 ul{
 
-	/*border:2px solid black;*/
 	display: flex;
 	flex-wrap: nowrap;
 	list-style: none;
@@ -51,7 +49,6 @@ ul{
 
 .nav_element{
 	border-right:2px solid #1D1F2A;
-	/*background-color: green;*/
 	color: #ffffff;
 	padding: 0.8rem 2rem;
 }
@@ -85,7 +82,6 @@ background-color:#5C9A9A;
 
 #avatar{
 	text-align: center;
-	/*padding:1rem;*/
 }
 
 
@@ -99,7 +95,7 @@ background-color:#5C9A9A;
 	margin-top: 3rem;
 	font-size: 3rem;
 	font-weight: bold;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #000000;
 	border-radius: 30%;
 }
 
@@ -112,10 +108,7 @@ background-color:#5C9A9A;
 }
 
 #iButton{
-	/*border-radius: 20px;*/
-	/*background-color: gray;*/
 	font-style: sans-serif;
-	
 	width: 1.5rem;
 	height:1.5rem;
 	text-align: center;
@@ -137,23 +130,20 @@ dfn{
 }
 
 article{
-	/*border: 2px dashed green;*/
 	padding: 6rem;
 	height: 80vh;
-	/*background-color:#41337A;*/
-
 }
 
 #writeMe{
   background-color: rgba(0,0,0,0);
   padding:1rem 2rem;
-	margin: 2rem;
+  margin: 2rem;
   border: 2px solid #000000;
   border-radius: 2rem;
   font-style: inherit;
   font-size: 1rem;
-  /*transition: background-color 1s;*/
  }
+
 #writeMe:focus{
 	outline: none;
 	background-color:rgba(0,0,0,0) ;
@@ -182,26 +172,20 @@ article{
 }
 
 section{
-	/*border: 2px solid black;*/
 	display: grid;
 	grid-gap: 1rem;
 	grid-template-columns: repeat(auto-fill , minmax(290px,1fr));
 	padding: 2rem;
-	/*background-color:#C2EFEB;*/
 }
 
 .project{
-	/*border: 1px solid black;*/
 	height: 10rem;
 	background-size: cover;
 	transition: 1s;
-	/*box-shadow:0 8px 6px -6px black;*/
 	border-radius: 1rem;
 	padding:1rem 0;
 	justify-self:center;
 	align-self: center;
-
-	/*background-color: #6EA4BF;*/
 }
 
 .project:hover{
@@ -216,17 +200,12 @@ section{
 
 /*---------------------------------*/
 footer{
-	/*border:2px solid yellow;*/
-	/*height: 25rem;*/
 	background-color: #222;
 	
 }
 
 .footer{
-
-    /*border: 2px solid red;*/
 	text-align: center;
-	/*padding-top: 15rem;*/
 	margin: auto 0;
 	padding-top: 10rem;
 	padding-bottom: 5rem;
